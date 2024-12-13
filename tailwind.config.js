@@ -6,11 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        "custom-yellow":"#F79F1A",
-        "custom-Green":"#046E1B",
-        "custom-bisq":"#FFC567",
-        "custom-gray":"#7F7D7D"
+      colors: {
+        "custom-yellow": "#F79F1A",
+        "custom-Green": "#046E1B",
+        "custom-bisq": "#FFC567",
+        "custom-gray": "#7F7D7D",
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+        'font-serif': ['Georgia', 'serif'],
       }
     },
   },

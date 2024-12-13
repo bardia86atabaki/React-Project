@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 function Layout() {
   return (
-    <div className='px-[98px] py-[18px]'>
+    <div className='px-[98px] py-[18px] font-inter'>
         <Navbar/>
         <Outlet/>
     </div>

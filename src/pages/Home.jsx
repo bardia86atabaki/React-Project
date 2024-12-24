@@ -1,7 +1,6 @@
 import React from "react";
 import Btn from "../Components/btn";
 import Command from "../Components/Command";
-
 import userProfile from "../Assets/image 4.png";
 
 function Home() {
@@ -18,7 +17,6 @@ function Home() {
         <img src="src/Assets/Tomato.png" alt="Tomato" className="w-[100px]" />
         <img src="src/Assets/1.png" alt="Dish" className="relative w-full z-0" />
         
-      
         <Command
           commandtext="The recipes here are not only delicious but also easy to follow."
           userName="Sarah M."
@@ -36,9 +34,9 @@ function Home() {
         />
         
         <img src="src/Assets/Broccoli.png" alt="Broccoli" className="absolute right-0 w-[100px]" />
-      </div>
+      </div>   
     </div>
   );
 }
 
-export default Home
+export default Home;
